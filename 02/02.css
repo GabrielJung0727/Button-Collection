@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 16px;
+}
+
+.base-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  width: 160px;
+}
+
+.base-button:hover {
+  opacity: 0.9;
+}
+
+/* 색상별 버튼 */
+.red {
+  background-color: #e74c3c;
+}
+
+.orange {
+  background-color: #e67e22;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  color: #333;
+}
+
+.green {
+  background-color: #2ecc71;
+}
